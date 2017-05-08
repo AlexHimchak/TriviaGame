@@ -1,0 +1,96 @@
+#container,
+#start {
+    background: yellow;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 600px;
+    width: auto;
+}
+
+#start {
+    font-size: 60px;
+    height: 400px;
+}
+
+#timer {
+    font-size: 80px;
+    text-align: center;
+}
+
+#selection {
+    text-align: center;
+}
+
+.button {
+    height: 75px;
+    width: 100%;
+    font-size: 50px;
+    background-color: red;
+}
+
+html {
+    background: url("../images/donkey.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background: orange;
+    margin: 0 auto;
+    font-size: 80px;
+    color: white;
+    border-style: solid;
+    height: 100px;
+    border-radius: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2 {
+    font-size: 80px;
+    width: auto;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    background: green;
+    font-size: 50px;
+    color: black;
+    border-style: solid;
+    width: auto;
+    float: left;
+    margin: auto;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+h4 {
+    background: teal;
+    font-size: 50px;
+    color: yellow;
+    border-style: solid;
+    width: auto;
+    margin: auto;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 50px;
+    text-align: left;
+    background: #FAEBD7;
+    color: black;
+    border-style: solid;
+    width: 20%;
+    margin: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
