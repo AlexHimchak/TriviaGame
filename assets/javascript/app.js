@@ -5,6 +5,7 @@ $(document).ready(function() {
     var number = 10;
     var temp = 2;
     var temp2 = 2;
+    var temp3 = 2;
     var intervalId;
 
     $('#container').hide();
@@ -35,12 +36,15 @@ $(document).ready(function() {
             stop();
 
             alert("Time Up!");
-            right = temp + temp2;
+            right = temp + temp2 + temp3;
             if (temp === 0) {
                 wrong++;
             }
             if (temp2 === 0) {
-                wrong++;
+               wrong++;
+            }
+            if (temp3===0){
+               wrong++
             }
             if (temp === 2) {
                 right = right - 2;
@@ -50,6 +54,11 @@ $(document).ready(function() {
                 right = right - 2;
                 unanswered++;
             }
+             if (temp3 === 2) {
+                right = right - 2;
+                unanswered++;
+            }
+
             $("#container").css("background-image", "url(assets/images/dk2.jpg)");
             $("#container").html("<h2>" + "GAME OVER! " + "<br>" + "Right Answers: " + right + "<br>" + "Wrong Answers: " + wrong + "<br>" + "Unanswered: " + unanswered + "</h2>");
 
@@ -86,6 +95,17 @@ $(document).ready(function() {
             console.log(right);
         } else {
             temp2 = 0;
+
+        }
+    });
+        $("input[name='fruit']").click(function() {
+
+        var capValue = $("input[name='fruit']:checked").val();
+        if (capValue === "bananas") {
+            temp3 = 1;
+            console.log(right);
+        } else {
+            temp3 = 0;
 
         }
     });
