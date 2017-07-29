@@ -1,7 +1,6 @@
 # TriviaGame
 
-http://i.imgur.com/GUM1cHN.png
-
+![alt tag](http://i.imgur.com/GUM1cHN.png)
 
 ### Overview
 
